@@ -35,10 +35,10 @@ The project is structured as a Spring Boot application. Follow the steps below t
 
     - **Course Compass Request:**
       ```http
-      GET http://localhost:8080/api/v1/course-compass?promptCreateCourse=YourCoursePrompt
+      GET http://localhost:8090/api/v1/course-compass?promptCreateCourse=YourCoursePrompt
       ```
 
     - **Book Recommendation Request:**
       ```http
-      GET http://localhost:8080/api/v1/book-recommendation?category=YourCategory&year=YourYear
+      GET http://localhost:8090/api/v1/book-recommendation?category=YourCategory&year=YourYear
       ```
